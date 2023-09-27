@@ -1,0 +1,52 @@
+/* anonymous-pro Font */
+@import url("https://p.typekit.net/p.css?s=1&k=fxd0iol&ht=tk&f=579&a=1770425&app=typekit&e=css");
+@font-face {
+font-family:"anonymous-pro";
+src:url("https://use.typekit.net/af/d359b5/000000000000000077359719/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/d359b5/000000000000000077359719/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/d359b5/000000000000000077359719/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+font-display:swap;font-style:normal;font-weight:400;font-stretch:normal;
+}
+.tk-anonymous-pro { font-family: "anonymous-pro",monospace; }
+
+
+/* Editorial Font */
+@font-face {
+    font-family: "Editorial New";
+    src: url(/assets/fonts/EditorialNew.otf) format(otf),
+        url(/assets/fonts/EditorialNew.woff2) format(woff2);
+}
+
+
+/* Gilroy Font */
+@font-face {
+    font-family: "GilroyB";
+    src: url(/assets/fonts/Gilroy-Bold.ttf);
+    font-weight: 900;
+}
+
+/* Gilroy Font */
+@font-face {
+    font-family: "GilroyM";
+    src: url(/assets/fonts/Gilroy-Medium.ttf);
+    font-weight: 400;
+}
+
+/* Gilroy Font */
+@font-face {
+    font-family: "GilroySB";
+    src: url(/assets/fonts/Gilroy-SemiBold.ttf);
+    font-weight: 500;
+}
+
+/* Gilroy Font */
+@font-face {
+    font-family: "GilroyR";
+    src: url(/assets/fonts/Gilroy-Regular.ttf);
+    font-weight: 200;
+}
+
+/* Montreal Font */
+@font-face {
+    font-family: "Neue Montreal";
+    src: url(/assets/fonts/NeueMontrealRegular.otf) format(otf),
+        url(/assets/fonts/NeueMontrealRegular.woff2) format(woff2);
+}

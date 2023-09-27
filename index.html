@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- DEPENDENCIES CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"/>
+
+    <!-- SOURCE CSS  -->
+    <link rel="stylesheet" href="/source/font.css">
+    <link rel="stylesheet" href="/source/style.css">  
+</head>
+<body>
+    
+    <div id="hidden" data-scroll-section>
+            <div class="hid-txt-area">
+                <div class="links">
+                    <h1>Shop</h1>
+                    <h1>Lookbook</h1>
+                    <h1>About</h1>
+                </div>
+                <div class="bot-hid">
+                    <div class="bot-hid-left">
+                        <h6>Shopping Bag</h6>
+                        <h6>Legal</h6>
+                        <h6>Contact</h6>
+                    </div>
+                    <div class="bot-hid-right">
+                        <i class="ri-instagram-line"></i><i class="ri-twitter-fill"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <div id="main" data-scroll-container>
+
+        <div id="nav" data-scroll-sticky>
+            <div class="menu nav-elm">
+                <i class="ri-menu-line"></i><p>Menu</p>
+            </div>
+            <div class="logo nav-elm">
+                <svg class="navigation__logo__icon" viewBox="0 0 90 28" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12.8993 27.2372C17.59 27.3129 22.2806 25.8754 22.2806 25.8754V17.2507C22.3185 15.3971 22.7346 14.3758 24.5881 14.3758V13.8462H14.5259V14.3758C17.6656 14.3758 19.4814 14.4514 19.4814 17.2507V24.438C19.4814 24.438 17.5521 26.3294 12.8993 26.3294C7.03599 26.3294 3.36668 21.1469 3.36668 13.6192C3.36668 6.09144 7.33861 0.946846 13.4667 0.946846C18.0439 0.946846 20.654 3.14087 21.3349 7.03714H21.9023V0.871192C21.9023 0.871192 16.1525 -0.0366773 13.9963 0.00115009C4.99328 0.00115009 0 6.05361 0 13.6192C0 21.1848 4.04758 27.0481 12.8993 27.2372Z"></path><path d="M29.7505 27.1616C32.4741 27.1616 35.1598 25.4593 35.8786 23.7949V26.859H41.5149V26.2915C39.8127 26.2915 38.3374 25.9889 38.3374 23.984V15.3214C38.3374 12.0304 35.9164 10.6308 32.6254 10.6308C29.637 10.6308 26.3838 11.8791 26.3838 11.8791L27.7834 15.6619H28.2752C28.1239 13.8083 29.0317 11.463 32.0958 11.463C34.5924 11.463 35.7651 13.0518 35.7651 15.851V17.8937C29.8639 17.8937 25.9298 20.0121 25.9298 23.5301C25.9298 25.1945 26.8377 27.1616 29.7505 27.1616ZM31.4149 25.9133C29.5235 25.9133 28.8048 24.6271 28.8048 23.114C28.8048 20.6174 30.6961 18.6881 35.8029 18.6503V22.5844C35.349 23.9462 33.3063 25.9133 31.4149 25.9133Z"></path><path d="M40.8792 26.859H49.7688V26.2915C48.18 26.2915 46.5913 25.9511 46.5913 24.2488V13.5435L52.1898 13.5814V10.5173H52.0006L46.5156 13.0896V10.593L41.144 11.1982V11.7278C42.695 11.7278 44.0568 12.2952 44.0568 13.8083V24.2488C44.0568 26.1024 42.468 26.2915 40.8792 26.2915V26.859Z"></path><path d="M60.4575 27.1616C65.2617 27.1616 68.4014 23.4166 68.4014 18.8394C68.4014 14.2623 65.2617 10.5173 60.4575 10.5173C55.6156 10.5173 52.4758 14.2623 52.4758 18.8394C52.4758 23.4166 55.6156 27.1616 60.4575 27.1616ZM60.4575 26.405C56.7126 26.405 55.4643 22.887 55.4643 18.8394C55.4643 14.7919 56.7126 11.3117 60.4575 11.3117C64.1647 11.3117 65.413 14.7919 65.413 18.8394C65.413 22.887 64.1647 26.405 60.4575 26.405Z"></path><path d="M73.1846 27.1616C75.9082 27.1616 78.5939 25.4593 79.3127 23.7949V26.859H84.949V26.2915C83.2468 26.2915 81.7715 25.9889 81.7715 23.984V15.3214C81.7715 12.0304 79.3505 10.6308 76.0595 10.6308C73.0711 10.6308 69.8179 11.8791 69.8179 11.8791L71.2175 15.6619H71.7093C71.558 13.8083 72.4658 11.463 75.5299 11.463C78.0265 11.463 79.1992 13.0518 79.1992 15.851V17.8937C73.298 17.8937 69.3639 20.0121 69.3639 23.5301C69.3639 25.1945 70.2718 27.1616 73.1846 27.1616ZM74.849 25.9133C72.9576 25.9133 72.2389 24.6271 72.2389 23.114C72.2389 20.6174 74.1302 18.6881 79.237 18.6503V22.5844C78.7831 23.9462 76.7404 25.9133 74.849 25.9133Z"></path><path d="M86.659 10.9746C84.8427 10.9746 83.4785 12.3924 83.4785 14.224C83.4785 16.0174 84.8427 17.4735 86.659 17.4735C88.4523 17.4735 89.8318 16.0174 89.8318 14.224C89.8318 12.3924 88.4523 10.9746 86.659 10.9746ZM86.659 17.2129C84.9729 17.2129 83.7391 15.8871 83.7391 14.224C83.7391 12.5687 84.9729 11.2352 86.659 11.2352C88.299 11.2352 89.5712 12.5687 89.5712 14.224C89.5712 15.8871 88.299 17.2129 86.659 17.2129ZM87.7012 15.5422L87.0192 14.4616C87.6553 14.316 87.9388 13.9405 87.9388 13.3734C87.9388 12.6376 87.4483 12.2238 86.3448 12.2238H84.9806V12.4077C85.3408 12.4077 85.3945 12.5457 85.3945 13.0132V15.4196C85.3945 15.8871 85.3408 16.025 84.9806 16.025V16.2089H86.3448V16.025C85.9846 16.025 85.9309 15.8871 85.9309 15.4196V14.5229H86.3601H86.4597L87.4943 16.2089H88.4446V16.025C88.1687 16.025 87.9618 15.956 87.7012 15.5422ZM86.2834 14.2624H85.9309V12.538C86.0382 12.4997 86.1685 12.4844 86.3601 12.4844C86.9808 12.4844 87.3794 12.7219 87.3794 13.3734C87.3794 14.0248 86.9808 14.2624 86.2834 14.2624Z"></path>
+                </svg>
+            </div>
+            <div class="bag nav-elm">
+                <p>Bag</p><i class="ri-shopping-bag-2-line"></i>
+            </div>
+        </div>
+
+        
+        
+        <div id="hero" data-scroll-section>
+            <!-- <img src="/assets/images/header.webp" alt=""> -->
+            <img src="https://images.unsplash.com/photo-1462804993656-fac4ff489837?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80" alt="">
+            <div class="main-txt">
+                <h1><i>Treat</i> <span class="span1">your skin</span> <br>
+                <span class="span2">in every</span><i>season</i></h1>
+                <button class="header-btn"><span class="button-content">Shop Now</span></button>
+            </div>
+        </div>
+
+        <div id="second" data-scroll data-scroll-section>
+            <p data-scroll data-scroll-speed="1">treat your skin in every season</p>
+            <h1 data-scroll data-scroll-speed="1.5">Skincare For <br> Autumn</h1>
+            <p data-scroll data-scroll-speed="1" class="autumn-skin">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus suscipit quas laborum adipisci possimus asperiores Lorem, ipsum..</p>
+
+            <div class="imgs img-one" data-scroll data-scroll-speed="-1">
+                <img src="/assets/images/seasons-1.webp" alt="">
+            </div>
+            <div class="imgs img-two" data-scroll data-scroll-speed="1">
+                <img src="https://images.unsplash.com/photo-1469334031218-e382a71b716b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80" alt="">
+            </div>
+            <div class="imgs img-three" data-scroll data-scroll-speed="1">
+                <img src="/assets/images/seasons-4.webp" alt="">
+            </div>
+            <div class="imgs img-four" data-scroll data-scroll-speed="-1">
+                <img src="https://images.unsplash.com/photo-1512316609839-ce289d3eba0a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1769&q=80" alt="">
+            </div>
+        </div>
+
+        <div id="third" data-scroll-section>
+            <video autoplay loop muted>
+                <source src="/assets/video/video.mp4" type="">
+            </video>
+        </div>
+
+        <div id="four" data-scroll-section>
+            <p data-scroll data-scroll-speed="2">Your skin 
+                <img src="/assets/images/highlights-1.webp" alt="">
+             reacts differently according to every season, <br> in the month of September, October, and November 
+                <img src="/assets/images/highlights-2.webp" alt="">
+             <br> your skin tends to start drying a bit easier, so we offer a <br> selection of essential skin care 
+                <img src="/assets/images/highlights-3.webp" alt="">
+             products for your <br> morning and night routines to keep your skin perfect.</p>
+        </div>
+
+        <div id="five" data-scroll-section>
+            <div class="five-txt" data-scroll data-scroll-speed="2">
+                <p data-scroll data-scroll-speed="2">This Season</p>
+                <h1 data-scroll data-scroll-speed="2">Daily<br>Skincare</h1>
+            </div>
+            
+            <div class="sliding-card" data-scroll data-scroll-speed="0">
+                <div class="top-card card-img-1">
+                    <div class="title">
+                        <h1>Cleansing</h1>
+                    </div>
+                </div>
+                <div class="bot-card">
+                    <p>A common benefit of facial cleansing is the removal of dirt, oil, and other unwanted debris. Throughout the day the skin on your face is continually covered with bacteria, pollutants, viruses, dirt, and old (dead) skin cells. Daily facial washing removes these impurities to give the skin a fresh look.</p>
+                </div>
+            </div>
+            <div class="sliding-card" data-scroll data-scroll-speed="0">
+                <div class="top-card card-img-2">
+                    <div class="title">
+                        <h1>Hydrate</h1>
+                    </div>
+                </div>
+                <div class="bot-card">
+                    <p>Regular facial cleansing (along with the use of a good moisturizer) is also an important factor in helping the skin maintain a proper level of hydration. Dehydrated skin looks and feels rough, wrinkled and aged. Cleansing helps manage PH levels of the skin; enabling sufficient water and product retention.</p>
+                </div>
+            </div>
+            <div class="sliding-card" data-scroll data-scroll-speed="0">
+                <div class="top-card card-img-3">
+                    <div class="title">
+                        <h1>Exfoliate</h1>
+                    </div>
+                </div>
+                <div class="bot-card">
+                    <p>Process of removing dead skin cells from the surface of your skin using a chemical, granular substance, or exfoliation tool. Your skin naturally sheds dead skin cells to make room for new cells every 30 days or so. Sometimes, dead cells don’t shed completely. This can result in dry, flaky patches and clogged pores. Exfoliating can help prevent this.</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="six" data-scroll-section>
+            <div class="sixl">
+                <p>ESSENTIAL</p>
+                <h1 data-index="0">Facial Moitureizer</h1>
+                <h1 data-index="1">Hydrating Mask</h1>
+                <h1 data-index="2">Exfoliant Paste</h1>
+                <button class="header-btn"><span class="button-content">Shop All</span></button>
+            </div>
+            <div class="sixr">
+                <div id="image">
+                    <div class="imgbox">
+                    <img src="/assets/images/facial.webp" alt="">
+                    </div>
+                    <div class="imgbox">
+                    <img src="/assets/images/mask.webp" alt="">
+                    </div>
+                    <div class="imgbox">
+                    <img src="/assets/images/paste.webp" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="footer" data-scroll-section="">
+            <div class="foot1">
+                <svg class="navigation__logo__icon" viewBox="0 0 90 28" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12.8993 27.2372C17.59 27.3129 22.2806 25.8754 22.2806 25.8754V17.2507C22.3185 15.3971 22.7346 14.3758 24.5881 14.3758V13.8462H14.5259V14.3758C17.6656 14.3758 19.4814 14.4514 19.4814 17.2507V24.438C19.4814 24.438 17.5521 26.3294 12.8993 26.3294C7.03599 26.3294 3.36668 21.1469 3.36668 13.6192C3.36668 6.09144 7.33861 0.946846 13.4667 0.946846C18.0439 0.946846 20.654 3.14087 21.3349 7.03714H21.9023V0.871192C21.9023 0.871192 16.1525 -0.0366773 13.9963 0.00115009C4.99328 0.00115009 0 6.05361 0 13.6192C0 21.1848 4.04758 27.0481 12.8993 27.2372Z"></path><path d="M29.7505 27.1616C32.4741 27.1616 35.1598 25.4593 35.8786 23.7949V26.859H41.5149V26.2915C39.8127 26.2915 38.3374 25.9889 38.3374 23.984V15.3214C38.3374 12.0304 35.9164 10.6308 32.6254 10.6308C29.637 10.6308 26.3838 11.8791 26.3838 11.8791L27.7834 15.6619H28.2752C28.1239 13.8083 29.0317 11.463 32.0958 11.463C34.5924 11.463 35.7651 13.0518 35.7651 15.851V17.8937C29.8639 17.8937 25.9298 20.0121 25.9298 23.5301C25.9298 25.1945 26.8377 27.1616 29.7505 27.1616ZM31.4149 25.9133C29.5235 25.9133 28.8048 24.6271 28.8048 23.114C28.8048 20.6174 30.6961 18.6881 35.8029 18.6503V22.5844C35.349 23.9462 33.3063 25.9133 31.4149 25.9133Z"></path><path d="M40.8792 26.859H49.7688V26.2915C48.18 26.2915 46.5913 25.9511 46.5913 24.2488V13.5435L52.1898 13.5814V10.5173H52.0006L46.5156 13.0896V10.593L41.144 11.1982V11.7278C42.695 11.7278 44.0568 12.2952 44.0568 13.8083V24.2488C44.0568 26.1024 42.468 26.2915 40.8792 26.2915V26.859Z"></path><path d="M60.4575 27.1616C65.2617 27.1616 68.4014 23.4166 68.4014 18.8394C68.4014 14.2623 65.2617 10.5173 60.4575 10.5173C55.6156 10.5173 52.4758 14.2623 52.4758 18.8394C52.4758 23.4166 55.6156 27.1616 60.4575 27.1616ZM60.4575 26.405C56.7126 26.405 55.4643 22.887 55.4643 18.8394C55.4643 14.7919 56.7126 11.3117 60.4575 11.3117C64.1647 11.3117 65.413 14.7919 65.413 18.8394C65.413 22.887 64.1647 26.405 60.4575 26.405Z"></path><path d="M73.1846 27.1616C75.9082 27.1616 78.5939 25.4593 79.3127 23.7949V26.859H84.949V26.2915C83.2468 26.2915 81.7715 25.9889 81.7715 23.984V15.3214C81.7715 12.0304 79.3505 10.6308 76.0595 10.6308C73.0711 10.6308 69.8179 11.8791 69.8179 11.8791L71.2175 15.6619H71.7093C71.558 13.8083 72.4658 11.463 75.5299 11.463C78.0265 11.463 79.1992 13.0518 79.1992 15.851V17.8937C73.298 17.8937 69.3639 20.0121 69.3639 23.5301C69.3639 25.1945 70.2718 27.1616 73.1846 27.1616ZM74.849 25.9133C72.9576 25.9133 72.2389 24.6271 72.2389 23.114C72.2389 20.6174 74.1302 18.6881 79.237 18.6503V22.5844C78.7831 23.9462 76.7404 25.9133 74.849 25.9133Z"></path><path d="M86.659 10.9746C84.8427 10.9746 83.4785 12.3924 83.4785 14.224C83.4785 16.0174 84.8427 17.4735 86.659 17.4735C88.4523 17.4735 89.8318 16.0174 89.8318 14.224C89.8318 12.3924 88.4523 10.9746 86.659 10.9746ZM86.659 17.2129C84.9729 17.2129 83.7391 15.8871 83.7391 14.224C83.7391 12.5687 84.9729 11.2352 86.659 11.2352C88.299 11.2352 89.5712 12.5687 89.5712 14.224C89.5712 15.8871 88.299 17.2129 86.659 17.2129ZM87.7012 15.5422L87.0192 14.4616C87.6553 14.316 87.9388 13.9405 87.9388 13.3734C87.9388 12.6376 87.4483 12.2238 86.3448 12.2238H84.9806V12.4077C85.3408 12.4077 85.3945 12.5457 85.3945 13.0132V15.4196C85.3945 15.8871 85.3408 16.025 84.9806 16.025V16.2089H86.3448V16.025C85.9846 16.025 85.9309 15.8871 85.9309 15.4196V14.5229H86.3601H86.4597L87.4943 16.2089H88.4446V16.025C88.1687 16.025 87.9618 15.956 87.7012 15.5422ZM86.2834 14.2624H85.9309V12.538C86.0382 12.4997 86.1685 12.4844 86.3601 12.4844C86.9808 12.4844 87.3794 12.7219 87.3794 13.3734C87.3794 14.0248 86.9808 14.2624 86.2834 14.2624Z"></path>
+                </svg>
+                <p>2021 GOBROA <span>&reg;</span>. ALL RIGHTS RESERVERD</p>
+            </div>
+            <div class="foot2">
+                <div class="foots">
+                    <a href="#">Shop</a>
+                    <a href="#">Lookbook</a>
+                    <a href="#">Legal</a>
+                </div>
+                <div class="foots">
+                    <a href="#">About</a>
+                    <a href="#">Shopping Bag</a>
+                    <a href="#">Contact</a>
+                </div>
+                <div class="fooot">
+                    <div class="fooot-top">
+                        <h6>SUBSCRIBE TO THE NEWSLETTER</h6>
+                        <input type="email" placeholder="Your e-mail                      →"> 
+                    </div>
+                    <div class="fooot-bot">
+                        <p>Re-designed with &#10084; by Anubhav Maithil</p>
+                    </div>
+                </div>
+                <div class="foots">
+                    <p>Social Media</p>
+                    <div class="lnks">
+                        <i class="ri-instagram-line"></i><i class="ri-twitter-fill"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- *********** CDN Follows ************** -->
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lettering.js/0.6.1/jquery.lettering.min.js" integrity="sha512-VJ/iYbiu1eJ6yLimfTi65t2R9TFcG5D9X8ZCfbbEFhTfPnKJh8byoKXEawi5ScJZBYL1eiirL1+MczZDx0Tz9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/textillate/0.4.0/jquery.textillate.min.js" integrity="sha512-0bHMhYsdpiur1bT84kDH4D7cpxFQ9O7uA5yxVAqWC87h552Xt0swX4M+ZlXMKE8oPVRIJ5lAwXWO2UWeDwJJOw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.2/gsap.min.js" integrity="sha512-kVlGhj2qFy+KBCFuvjBJTGUMxbdqJKs4yK2jh0e0VPhWUPiPC87bzm4THmaaIee3Oj7j6sDpTTgm2EPPiESqBg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.3/ScrollTrigger.min.js" integrity="sha512-I+JeBiUY5B5/qJ6ey5CNqJ0yhAuNHBBbRjdM3alkabxCLz3++7hbeOScVSjyRouAihQIiint6Z2Or976vU2XuQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="/source/script.js"></script>
+</body>
+</html>
